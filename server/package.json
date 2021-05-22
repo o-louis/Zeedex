@@ -1,0 +1,17 @@
+{
+  "name": "zeedex-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-louis/Zeedex.git"
+  },
+  "author": "o-louis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o-louis/Zeedex/issues"
+  },
+  "homepage": "https://github.com/o-louis/Zeedex#readme"
+}
