@@ -19,6 +19,11 @@ const app = async (fastify, opts) => {
     dir: join(__dirname, "plugins"),
     options: { ...opts },
   });
+
+  fastify.register(autoLoad, {
+    dir: join(__dirname, "services"),
+    options: { ...opts },
+  });
 };
 
 export default app;
